@@ -5,11 +5,12 @@ input.transparent-input {
 
 body {
   font-family: Kalam;
-  background-image: url(https://images.pexels.com/photos/159686/desk-pencil-draw-table-159686.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image: url(https://images.pexels.com/photos/3759099/pexels-photo-3759099.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image: no repeat center-fixed;
   background-size: cover;
-  background-position: top center;
-  background-color: transparent;
+  max-width: 800;
 }
+
 h1,
 h2,
 h4,
@@ -32,12 +33,13 @@ a {
 }
 
 .weather-app {
-  border: 1px solid #babec2;
+  border: none;
   text-align: left;
-  padding: 20px;
-  margin: 30px auto;
-  border-radius: 20px;
-  max-width: 850px;
+  padding: 30px;
+  margin: 40px auto;
+  border-radius: 30px;
+  max-width: 800px;
+  background-color: transparent;
 }
 
 li {
@@ -60,7 +62,6 @@ li {
   border: none;
   text-decoration: none !important;
   white-space: nowrap;
-  position: relative;
 }
 .card-title {
   white-space: nowrap;

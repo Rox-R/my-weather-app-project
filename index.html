@@ -40,10 +40,10 @@
 
             <div class="col-3">
                 <button
-                  class="btn btn-success w-100"
+                  class="btn btn-success w-80"
                   id="current-location-button"
                 >
-                  My location
+                <i class="fas fa-map-marker-alt"></i>
                 </button>
               </div>
           </div>
@@ -56,13 +56,16 @@
           <li id="date"></li>
           <li id= "description">
             Partly cloudy
-            <i class="fas fa-cloud-sun"></i>
           </li>
         </ul>
         <div class="float-left">
             <div class="clearfix">
+                <img 
+                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" 
+                alt = "Partly cloudy"
+                />
             <span class="temperature" id="temperature">19</span
-            ><span class="units">
+              ><span class="units">
               <a href="#" id="celsius-link">°C</a> |
               <a href="#" id="fahrenheit-link">°F</a>
             </span>
@@ -80,6 +83,7 @@
             </ul>
           </div>
         </div>
+      
 <br>
 <br>
 
@@ -118,7 +122,6 @@
                 <br>
                 Scattered showers
                 <i class="fas fa-cloud-showers-heavy"></i>
-                 <i class="fas fa-umbrella"></i>
 
               </p>
             </div>
@@ -127,12 +130,11 @@
         </div>
      
     </div>
-
-    
+  
     <script src="src/script.js"></script>
 
     <footer> 
-      <a href = "https://github.com/Rox-R/my-weather-app-project"> Open-source code by Roxana Rognean </a>
+      <a href = "https://github.com/Rox-R/my-weather-app-project"> Open-source code </a> by Rox-R 
     </footer>
   </body>
 </html>

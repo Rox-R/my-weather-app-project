@@ -30,7 +30,7 @@
                     class="form-control shadow-sm"
                   />
                 </div>
-                <div class="col-3">
+                <div class="col">
                   <input
                     type="submit"
                     value="Search"
@@ -38,103 +38,73 @@
                   />
                 </div>
 
-            <div class="col-3">
+            <div class="col">
                 <button
                   class="btn btn-success w-80"
                   id="current-location-button"
                 >
                 <i class="fas fa-map-marker-alt"></i>
                 </button>
-              </div>
-          </div>
+              </div> 
         </form>
-          
-      <h1 id="city">
+      <br>    
+
+      <div class = "summary"> 
+        <h1 id="city">
         Amsterdam, Netherlands 
       </h1>
       <ul>
-          <li id="date"></li>
-          <li id= "description">
-            Partly cloudy
-          </li>
-        </ul>
+        <li>Last updated: <span id="date"></span></li>
+        <li id="description"></li>
+      </ul>
+    </div>
+
+      
+        <div class ="col-6">
         <div class="float-left">
-            <div class="clearfix">
-                <img 
-                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" 
-                alt = "Partly cloudy"
-                />
+        <div class="clearfix">
+            <img 
+            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" 
+            alt = "Partly cloudy"
+            />
             <span class="temperature" id="temperature">19</span
               ><span class="units">
               <a href="#" id="celsius-link">°C</a> |
               <a href="#" id="fahrenheit-link">°F</a>
             </span>
-          </div>   
-        </div>
-          <div class="col-9">
-            <div class="float-left">
-            <ul>
-              <li>
-                Humidity: <span id="humidity">77</span>%
-              </li>
-              <li>
-                Wind: <span id="wind">8</span> km/h
-              </li>
-            </ul>
-          </div>
-        </div>
-      
-<br>
-<br>
-
-      <div class="card-group">
-          <div class="card">
-            <div class ="float-left">
-            
-            <div class="card-body">
-              <h5 class="card-title">Wednesday</h5>
-              <p class="card-text">26°C / 76.8 °F 
-                <br>
-                Mostly cloudy 
-                <i class="fas fa-cloud-sun"></i>
-              </p>
-            </div>
-          </div>
           
-          </div>
-          <div class="card">
-           
-            <div class="card-body">
-              <h5 class="card-title">Thursday</h5>
-              <p class="card-text">29°C / 84.2°F 
-                <br>
-                Partly cloudy
-                <i class="fas fa-cloud-sun"></i> 
-              </p>
-            </div>
-            
-          </div>
-          <div class="card">
-      
-            <div class="card-body">
-              <h5 class="card-title">Friday</h5>
-              <p class="card-text">26°C / 78.8°F 
-                <br>
-                Scattered showers
-                <i class="fas fa-cloud-showers-heavy"></i>
-
-              </p>
-            </div>
-            
-          </div>
         </div>
-     
+      </div>
     </div>
-  
+      <div class="col">
+        <div class="float-left">
+        <ul>
+          <li>
+            Humidity: <span id="humidity">77</span>%
+          </li>
+      
+          <li>
+            Wind: <span id="wind">8</span> km/h
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+
+        
+      </div>
+          <small>
+            <a
+              href="https://github.com/Rox-R/my-weather-app-project"
+              target="_blank"
+              >Open-source code</a
+            >
+            by Rox-R
+          </small>
+      
+
     <script src="src/script.js"></script>
 
-    <footer> 
-      <a href = "https://github.com/Rox-R/my-weather-app-project"> Open-source code </a> by Rox-R 
-    </footer>
   </body>
 </html>

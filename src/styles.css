@@ -5,7 +5,7 @@ input.transparent-input {
 
 body {
   font-family: Kalam;
-  background-image: url(https://images.pexels.com/photos/3740233/pexels-photo-3740233.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image: url(https://images.pexels.com/photos/3804082/pexels-photo-3804082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-image: no repeat center-fixed;
   background-size: cover;
   max-width: 600;
@@ -33,14 +33,6 @@ h1 {
   line-height: 36px;
   font-family: Kalam;
   color: orangered;
-}
-
-date {
-  text-align: left;
-}
-
-description {
-  text-align: left;
 }
 
 a {

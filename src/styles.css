@@ -5,11 +5,10 @@ input.transparent-input {
 
 body {
   font-family: Kalam;
-  background-image: url(https://images.pexels.com/photos/3804082/pexels-photo-3804082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image: url(https://images.pexels.com/photos/3740254/pexels-photo-3740254.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-image: no repeat center-fixed;
-  background-size: cover;
-  max-width: 600;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {

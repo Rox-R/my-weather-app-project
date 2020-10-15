@@ -16,11 +16,12 @@
   </head>
 
   <body>
-      <div class="container">
-          <div class="weather-app">
-            <form class="search-form" id="search-form">
-              <div class="row">
-                <div class="col-6">
+  <div class="container">
+    <header> Current weather </header>
+  <div class="weather-app">
+  <form class="search-form" id="search-form">
+  <div class="row">
+    <div class="col-6">
                   <input
                     type="search"
                     placeholder="Enter city"
@@ -63,15 +64,14 @@
         <div class ="col-6">
         <div class="float-left">
         <div class="clearfix">
-            <img 
-            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" 
-            alt = "Partly cloudy"
-            />
-            <span class="temperature" id="temperature">19</span
-              ><span class="units">
-              <a href="#" id="celsius-link">°C</a> |
-              <a href="#" id="fahrenheit-link">°F</a>
-            </span>
+            <div class="clearfix weather-temperature">
+            <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Partly cloudy" id="icon" class="float-left" />
+            
+                <strong id="temperature"></strong
+                ><span class="units"
+                  ><a href="#" id="celsius-link" class="active">°C</a> |
+                  <a href="#" id="fahrenheit-link">°F</a></span
+                >
           
         </div>
       </div>
@@ -88,12 +88,16 @@
           </li>
         </ul>
       </div>
-    </div>
-
-
-
-        
       </div>
+    </div> 
+
+      </div>
+      <h2>
+      <strong id="subtitle"> 3 hour forecast<strong>
+      </h2>
+        <div class="row weather-forecast" id="forecast"></div>
+    </div>
+        
           <small>
             <a
               href="https://github.com/Rox-R/my-weather-app-project"
